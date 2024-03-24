@@ -1,0 +1,62 @@
+
+
+:root{
+    
+    --main-color:#24353f;
+    --secondary-color:#17a2b8;
+}
+
+body{
+   
+    background-color: var(--main-color);
+    font-family: "Roboto Flex", sans-serif;
+
+}
+
+
+/* UTILITIES */
+
+.color2{
+    color: var(--secondary-color);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+/* login body */
+
+.inner{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+}
+.inner h1{
+    word-spacing: .1rem;
+    font-size: 3rem;
+    
+}
+
+input:focus{
+ box-shadow: none !important;
+ border-color: #17a2b8 !important;
+ transition: .3s all;
+}
+#signUpBtn,#loginBtn{
+    border-color: #17a2b8 !important;
+    font-size: 1.2rem !important;
+    color: var(--secondary-color) !important;
+    transition: .3s all;
+}
+#signUpBtn:hover ,#loginBtn:hover{
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+}
+#signUpBtn:focus ,#loginBtn:focus{
+    box-shadow:0 0 0 0.25rem #17a3b877 !important;
+
+}
+#signUpLink:hover{
+    text-decoration: underline !important;
+}
